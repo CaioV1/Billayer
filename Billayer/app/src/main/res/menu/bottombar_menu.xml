@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottombar_lancamentos"
+        android:icon="@drawable/lancamento"
+        android:title="Lançamentos"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/bottombar_despesas"
+        android:icon="@drawable/despesa"
+        android:title="Despesas"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/bottombar_estatisticas"
+        android:icon="@drawable/estatistica"
+        android:title="Estatísticas"
+        app:showAsAction="ifRoom"
+        />
+</menu>

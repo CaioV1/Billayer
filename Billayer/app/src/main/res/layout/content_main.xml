@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.digitalindividual.billayer.app.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="R$ 0,00"
+        android:textSize="30sp"
+        android:textColor="@color/gold"
+        android:id="@+id/txt_saldo"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:src="@drawable/lancamento"
+                android:background="@color/gold"
+                android:tint="@color/colorPrimary"
+                android:id="@+id/btn_receitas"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Receitas"
+                android:textColor="@color/gold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="30dp">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:src="@drawable/despesas"
+                android:background="@color/gold"
+                android:tint="@color/colorPrimary"
+                android:id="@+id/btn_dispesas"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Despesas"
+                android:textColor="@color/gold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="30dp">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:src="@drawable/categoria"
+                android:adjustViewBounds="true"
+                android:padding="1dp"
+                android:scaleType="fitCenter"
+                android:background="@color/gold"
+                android:tint="@color/colorPrimary"
+                android:id="@+id/btn_categoria"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Categorias"
+                android:textColor="@color/gold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.digitalindividual.billayer.app.EscolherCadastro"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/gold"
+        android:text="cadastrar receita"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/btn_cadastrar_receita"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@color/gold"
+        android:text="cadastrar despesa"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/btn_cadastrar_despesa"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@color/gold"
+        android:text="cadastrar categoria"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/btn_escolher_categoria"/>
+
+
+</LinearLayout>

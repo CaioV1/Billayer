@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="15dp"
+        android:tint="@color/gold"
+        android:background="@color/colorPrimaryDark"
+        android:src="@drawable/alimentacao"
+        android:id="@+id/img_categoria"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="15sp"
+            android:text="Descrição"
+            android:textColor="@color/gold"
+            android:id="@+id/txt_item_nome"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="13sp"
+            android:text="Categoria"
+            android:textColor="@color/white"
+            android:id="@+id/txt_item_categoria"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:text="20/03/2017"
+        android:textColor="@color/white"
+        android:id="@+id/txt_item_data"
+        />
+
+    <TextView
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="right"
+        android:textSize="15sp"
+        android:text="R$1000,00"
+        android:textColor="@color/white"
+        android:id="@+id/txt_item_valor"
+        />
+
+</LinearLayout>

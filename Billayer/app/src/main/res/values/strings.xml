@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Billayer</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="categoria">
+        <item>Alimentação</item>
+        <item>Saúde</item>
+        <item>Transporte</item>
+        <item>Educação</item>
+        <item>Lazer</item>
+        <item>Moradia</item>
+    </string-array>
+</resources>

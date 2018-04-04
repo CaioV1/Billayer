@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.digitalindividual.billayer.app.CadastroCategoria"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Cadastro Categoria"
+        android:textSize="20sp"
+        android:textColor="@color/gold"
+        android:textStyle="bold"
+        android:id="@+id/txt_titulo_categoria"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Clique e escolha uma imagem"
+        android:textSize="20sp"
+        android:textColor="@color/gold"
+        android:gravity="center_horizontal"
+        android:inputType="text"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:tint="@color/gold"
+        android:src="@drawable/categoria"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/img_categoria_cadastrar"
+        android:onClick="abrirGaleria"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Para uma melhor exibição, escolha as dimensões iguais"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="Nome"
+        android:textSize="20sp"
+        android:textColor="@color/gold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_horizontal"
+        android:hint="Digite o nome da categoria"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:textCursorDrawable="@null"
+        android:id="@+id/txt_categoria_cadastrar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/gold"
+        android:text="cadastrar"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/btn_cadastrar_categoria"/>
+
+</LinearLayout>
